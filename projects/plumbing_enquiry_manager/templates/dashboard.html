@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Enquiry Dashboard</h1>
+    <p>Manage incoming customer enquiries</p>
+</header>
+
+<main class="container">
+    <section class="form-card">
+        <h2>Customer Enquiries</h2>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% for category, message in messages %}
+                <div class="alert {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endwith %}
+
+        {% if enquiries %}
+            {% for enquiry in enquiries %}
+                <div class="enquiry-card">
+                    <h3>{{ enquiry.customer_name }}</h3>
+                    <p><strong>Email:</strong> {{ enquiry.email }}</p>
+                    <p><strong>Phone:</strong> {{ enquiry.phone }}</p>
+                    <p><strong>Service:</strong> {{ enquiry.service }}</p>
+                    <p><strong>Message:</strong> {{ enquiry.message or "No message provided" }}</p>
+                    <p><strong>Received:</strong> {{ enquiry.created_at }}</p>
+                    <p><strong>Status:</strong> {{ enquiry.status }}</p>
+
+                    <form action="{{ url_for('update_status', enquiry_id=enquiry.id) }}" method="POST">
+                        <label for="status-{{ enquiry.id }}">Update Status</label>
+
+                        <select name="status" id="status-{{ enquiry.id }}">
+                            <option value="New" {% if enquiry.status == "New" %}selected{% endif %}>New</option>
+                            <option value="Contacted" {% if enquiry.status == "Contacted" %}selected{% endif %}>Contacted</option>
+                            <option value="Completed" {% if enquiry.status == "Completed" %}selected{% endif %}>Completed</option>
+                        </select>
+
+                        <button type="submit">Save Status</button>
+                    </form>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No enquiries received yet.</p>
+        {% endif %}
+
+        <p><a href="{{ url_for('home') }}">Back to enquiry form</a></p>
+    </section>
+</main>
+
+</body>
+</html>

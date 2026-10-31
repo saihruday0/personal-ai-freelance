@@ -1,0 +1,21 @@
+{
+  "business_name": "Bestgrade Tuition",
+  "website": "https://bestgradetuition.co.uk/",
+  "country": "UK",
+  "status": "QUALIFY",
+  "verification": "Manually verified",
+  "findings": [
+    {
+      "problem": "FAQ page contains visible Lorem Ipsum placeholder text",
+      "evidence_url": "https://bestgradetuition.co.uk/faqs/",
+      "classification": "VERIFIED_PROBLEM"
+    },
+    {
+      "problem": "Pricing page contains placeholder content",
+      "evidence_url": "https://bestgradetuition.co.uk/pricing-list/",
+      "classification": "VERIFIED_PROBLEM"
+    }
+  ],
+  "potential_service": "Website content cleanup and replacement of placeholder text",
+  "outreach_status": "NOT_CONTACTED"
+}

@@ -1,0 +1,22 @@
+
+{
+  "business_name": "Taps On Plumbing",
+  "website": "https://taps-on.co.uk/",
+  "country": "UK",
+  "status": "QUALIFY",
+  "verification": "Manually verified",
+  "findings": [
+    {
+      "problem": "Appointment buttons are not functioning",
+      "evidence_url": "https://taps-on.co.uk/",
+      "classification": "VERIFIED_PROBLEM"
+    },
+    {
+      "problem": "Enquiry forms are broken",
+      "evidence_url": "https://taps-on.co.uk/contact-us/",
+      "classification": "VERIFIED_PROBLEM"
+    }
+  ],
+  "potential_service": "Repair enquiry forms and appointment buttons",
+  "outreach_status": "NOT_CONTACTED"
+}

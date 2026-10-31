@@ -1,0 +1,305 @@
+[
+  {
+    "lead_id": "L001",
+    "business_name": "Web Designer Pro (Josh Hall)",
+    "website": "https://joshhall.co/",
+    "customer_type": "Freelance web designers, agency owners, and digital creators",
+    "services": "Web design business courses, coaching membership, community platform, and podcasting",
+    "observed_problem": "High-tier coaching application, inquiry management, and lead intake rely on a standard website contact form and email dispatch, without a direct interactive strategy session booking or pre-qualification intake workflow on the primary touchpoints.",
+    "evidence_url": "https://webdesignerpro.com/contact/",
+    "potential_solution": "Implement an automated client intake funnel with integrated pre-qualification screening, real-time strategy call scheduling, and automated CRM follow-up workflows for premium coaching inquiries.",
+    "source": "Publicly accessible storefront website and contact pages",
+    "risk_flags": [
+      "High reliance on third-party SaaS platforms (Circle) for backend community delivery",
+      "Established brand with existing support workflows handled by a virtual assistant"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L002",
+    "business_name": "Synchro Shakti Academy (Kartika Nair)",
+    "website": "https://synchroshakti.com/",
+    "customer_type": "Individuals seeking life coaching, personal development, mindfulness, and manifestation courses",
+    "services": "1-on-1 clarity calls, high-ticket annual mentorship programs, group courses, and live retreat packages",
+    "observed_problem": "High-ticket tier offerings (ranging up to ₹49,999+ with 1-on-1 clarity calls) are hosted on generic e-commerce storefront landing pages without custom interactive discovery call booking widgets, personalized pre-call qualification workflows, or automated scheduling calendars.",
+    "evidence_url": "https://academy.synchroshakti.com/web/lite/store/65ca56b5d22d8eb98b3baf7c",
+    "potential_solution": "Deploy a high-converting dedicated booking microsite with automated multi-calendar sync, pre-call qualification questionnaires, and multi-channel SMS/WhatsApp booking reminders for premium 1-on-1 mentorship packages.",
+    "source": "Publicly accessible coaching academy storefront and membership program pages",
+    "risk_flags": [
+      "Backend operations and transactions are reliant on third-party platform infrastructure (TagMango)",
+      "High course volume and existing automated LMS infrastructure may limit willingness to change existing checkout tools"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L003",
+    "business_name": "Thomas Frank (ThomasJFrank.com / Flywheel Publishing LLC)",
+    "website": "https://thomasjfrank.com/",
+    "customer_type": "Digital creators, Notion users, students, and productivity professionals",
+    "services": "Notion productivity templates (Ultimate Brain, Creator's Companion), online video courses, and sponsored content",
+    "observed_problem": "The contact workflow on the main website uses a generic contact page directing users to community forums or standard email without dedicated intake triage for commercial brand sponsorships or high-volume enterprise template licensing inquiries.",
+    "evidence_url": "https://thomasjfrank.com/contact/",
+    "potential_solution": "Deploy an interactive business inquiry workflow widget with automated pre-qualification filtering, intake categorization (e.g., brand sponsorships vs. template support vs. enterprise licensing), and dynamic CRM routing.",
+    "source": "Publicly accessible official creator portal and contact pages",
+    "risk_flags": [
+      "The business is highly sophisticated in technical workflows and Notion automations, which may limit interest in third-party automation development."
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L004",
+    "business_name": "Matt D'Avella (Slow Growth Pty Ltd)",
+    "website": "https://www.mattdavella.com/",
+    "customer_type": "Aspiring filmmakers, YouTube content creators, and self-improvement enthusiasts",
+    "services": "Digital filmmaking & creator courses (Master YouTube), digital downloads, and brand partnerships",
+    "observed_problem": "The primary website lacks a dedicated, self-serve commercial sponsorship or brand partnership intake portal; general inquiries, course support, and business communications rely primarily on direct static support emails (support@mattdavella.com).",
+    "evidence_url": "https://www.mattdavella.com/faqs",
+    "potential_solution": "Implement a structured sponsorship enquiry portal featuring an interactive campaign brief builder, automated budget pre-screening, and real-time availability/media kit delivery.",
+    "source": "Publicly accessible official brand site, FAQ, and terms pages",
+    "risk_flags": [
+      "Commercial brand sponsorships and media representation may already be managed externally by a talent agency."
+    ],
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L005",
+    "business_name": "Studio Ayra",
+    "website": "https://studioayra.com/",
+    "customer_type": "ecommerce",
+    "product_category": "Handcrafted Ceramics & Home Decor",
+    "business_size_evidence": "Small studio setup in Bengaluru founded by product designer Ayushi Rastogi, producing limited small-batch, handbuilt stoneware pieces (vases, lamps, ceramics) priced between ₹2,600 and ₹15,500.",
+    "website_platform": "Shopify",
+    "services": "Interactive product showcase customization, bespoke commissioning inquiry automation, pre-order intake workflow",
+    "observed_problem": "The store offers high-value, made-to-order ceramic pieces (e.g., Signature Vases and handcrafted lamps up to ₹15,500), but uses a static text banner indicating 'Pieces made to order, open to custom work' without a structured intake form or interactive customization builder.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://studioayra.com/",
+      "https://d2cbazaar.com/indian-d2c-home-and-lifestyle-brands/"
+    ],
+    "potential_solution": "Implement a custom interactive commission request form that captures design preferences, dimensions, color glazes, and timeline expectations directly into a structured lead intake workflow.",
+    "contact_method": "Website contact form & newsletter subscription modal",
+    "source": "Publicly accessible storefront website & verified D2C brand directories",
+    "risk_flags": [
+      "Bespoke studio operation with potential low transaction volume",
+      "Owner may prefer direct email/Instagram DM communications over automated forms"
+    ],
+    "confidence": "high",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L006",
+    "business_name": "Evolve Snacks",
+    "website": "https://evolvesnacks.com/",
+    "customer_type": "ecommerce",
+    "product_category": "Healthy Packaged Snacks & Beverages",
+    "business_size_evidence": "Independent healthy snacks brand selling small snack packs (Ragi chips, Makhana, Bhakarwadi) priced between ₹77 and ₹559, operating with a small support team via email (admin@evolvesnacks.com) Monday to Friday.",
+    "website_platform": "Shopify",
+    "services": "Custom subscription box configurator, WhatsApp order inquiry & post-purchase tracking bot",
+    "observed_problem": "The store sells recurring subscription boxes (e.g., 'Pack of 10 Subscription Box') and custom hampers ('Celebration Festive Pack Hamper'), but relies on manual backend outreach ('Our Team will get in touch with you within 24 hours to curate the hamper') rather than an interactive bundle builder or automated preference selector.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://evolvesnacks.com/collections/all"
+    ],
+    "potential_solution": "Build an interactive 'Mix & Match' bundle configurator for hampers and subscriptions to let customers choose flavors directly on page before checkout, reducing manual 24-hour phone/email curation steps.",
+    "contact_method": "Email (admin@evolvesnacks.com)",
+    "source": "Publicly accessible Shopify storefront and product collection catalog",
+    "risk_flags": [
+      "Third-party Shopify app integrations might fulfill subscription needs without requiring bespoke code"
+    ],
+    "confidence": "high",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L007",
+    "business_name": "Tea Better",
+    "website": "https://teabetter.in/",
+    "customer_type": "ecommerce",
+    "product_category": "Specialty & Wellness Teas",
+    "business_size_evidence": "Small independent tea storefront selling gourmet teas (Kolkata Masala Chai, Kashmiri Kahwa) priced between ₹89 and ₹249 per pack.",
+    "website_platform": "Shopify",
+    "services": "Interactive tea selection questionnaire / quiz, automated WhatsApp order status bot, site UX enhancement",
+    "observed_problem": "Multiple product variants (e.g., 30g, 50g, 100g sizes) display generic 'Variant sold out or unavailable' messages upon selecting certain options without automated back-in-stock notifications or interactive blend recommendation tools for first-time buyers.",
+    "problem_classification": "VERIFIED_PROBLEM",
+    "evidence_url": [
+      "https://teabetter.in/products/kashmiri-kahwa-tea",
+      "https://teabetter.in/products/kolkata-masala-chai-100g"
+    ],
+    "potential_solution": "Deploy an automated 'Back in Stock' alert capture integration along with a 3-question interactive 'Find Your Tea Blend' quiz to guide new visitors to available products.",
+    "contact_method": "Website support page & footer email dispatch",
+    "source": "Publicly accessible product pages on official storefront",
+    "risk_flags": [
+      "Low average order value (AOV) may limit budget for custom technical solutions"
+    ],
+    "confidence": "medium",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L008",
+    "business_name": "Label DC",
+    "website": "https://labeldc.com/",
+    "customer_type": "ecommerce",
+    "product_category": "Indo-Western Apparel & Ethnic Wear",
+    "business_size_evidence": "Independent fashion boutique based in Lokhandwala, Mumbai with a physical showroom and an online store, running support via email and dedicated WhatsApp lines (+91 9137123542).",
+    "website_platform": "Shopify",
+    "services": "Interactive sizing advisor widget, exchange/return workflow automation",
+    "observed_problem": "Customer support for exchange and size inquiries requires customers to manually initiate requests and 'wait up to 2 working days' for confirmation via WhatsApp, alongside a static text note for custom fit verification.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://labeldc.com/pages/contact",
+      "https://labeldc.com/pages/about-us"
+    ],
+    "potential_solution": "Implement an automated self-serve exchange intake portal or interactive WhatsApp bot to immediately validate return eligibility, collect unboxing videos, and issue exchange requests without manual 2-day delays.",
+    "contact_method": "Email (support@labeldc.com), WhatsApp (+91 9137123542)",
+    "source": "Publicly accessible Contact and Policy pages",
+    "risk_flags": [
+      "Established brand with existing WhatsApp staff handling inquiries"
+    ],
+    "confidence": "high",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L009",
+    "business_name": "Fresh n Flavour (Aarvee Multibiz Co.)",
+    "website": "https://freshnflavour.com/",
+    "customer_type": "ecommerce",
+    "product_category": "Artisanal Chai & Black Tea Blends",
+    "business_size_evidence": "Independent D2C tea merchant selling small-batch CTC and orthodox teas starting at ₹325–₹450.",
+    "website_platform": "WooCommerce / WordPress",
+    "services": "Interactive product finder, automated sample request workflow, UX/UI cleanup",
+    "observed_problem": "The site uses a heavy blog-style informational layout with extensive text tables to explain tea grades, requiring users to navigate dense technical text to figure out which tea blend suits their preference.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://freshnflavour.com/best-tea-brand-for-milk-tea-in-india/"
+    ],
+    "potential_solution": "Create a lightweight, interactive 'Brew Finder' tool on the storefront home page to guide buyers to their ideal blend based on milk ratio and strength preferences.",
+    "contact_method": "Website contact details & direct checkout portal",
+    "source": "Publicly accessible storefront guide page",
+    "risk_flags": [
+      "Heavy reliance on SEO content marketing over interactive storefront features"
+    ],
+    "confidence": "medium",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L010",
+    "business_name": "MindSift Consulting",
+    "website": "https://mindsift.in/",
+    "customer_type": "consultant_or_agency",
+    "location": "Mumbai, Maharashtra, India",
+    "services": "HR consulting, talent acquisition, recruitment advisory, executive search",
+    "business_size_evidence": "Boutique recruitment consultancy firm operated by a small core team of HR advisors in Mumbai",
+    "website_platform": "WordPress",
+    "contact_workflow": "Static contact form with standard text inputs (Name, Email, Phone, Message) dispatched via server mailer without dynamic booking or candidate portal",
+    "observed_problem": "The website uses a generic non-interactive contact form where job seekers and corporate clients submit inquiries into the same un-segmented email queue without automated scheduling or candidate CV parsing.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://mindsift.in/",
+      "https://mindsift.in/contact/"
+    ],
+    "potential_solution": "Implement a dual-path interactive lead triage form that separates job seekers from prospective corporate client hiring inquiries, combined with automated Calendly/Zoho booking for initial intake calls.",
+    "contact_method": "Website contact form & direct email dispatch",
+    "source": "Publicly accessible official business website",
+    "risk_flags": [
+      "Small boutique team may rely heavily on personal network/LinkedIn rather than website inbound leads"
+    ],
+    "confidence": "high",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L011",
+    "business_name": "Third Eye Blind Productions",
+    "website": "https://thirdeyeblindproductions.com/",
+    "customer_type": "consultant_or_agency",
+    "location": "Mumbai, Maharashtra, India",
+    "services": "Video production, brand storytelling, digital creative studio services, corporate communications",
+    "business_size_evidence": "Boutique creative video agency located in Andheri West, Mumbai, with a small production crew serving mid-tier brands",
+    "website_platform": "WordPress / Elementor",
+    "contact_workflow": "Static embed form and mailto links without interactive project scope calculators or automated intake questionnaires",
+    "observed_problem": "High-production video portfolio showcased on page, but incoming video production briefs rely on open-ended text fields rather than an interactive brief builder to collect estimated budget, shoot timelines, and asset deliverables.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://thirdeyeblindproductions.com/",
+      "https://www.justdial.com/Mumbai/Third-Eye-Blind-Productions-Andheri-West/022PXX22-XX22-200117231137-E5I7_BZDET"
+    ],
+    "potential_solution": "Build an interactive 'Video Project Scoping Tool' that lets potential corporate clients select deliverable types (e.g., brand film, ad, corporate video), estimate timelines, and auto-generate a brief before initial consultation.",
+    "contact_method": "Website contact form, email, and phone contact",
+    "source": "Publicly accessible storefront and agency directory listings",
+    "risk_flags": [
+      "Creative agency team might prefer handling initial discovery directly via phone/WhatsApp"
+    ],
+    "confidence": "high",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L012",
+    "business_name": "Taurus Hardtek Consultancy",
+    "website": "https://taurushardtek.com/",
+    "customer_type": "consultant_or_agency",
+    "location": "Bengaluru, Karnataka, India",
+    "services": "Technical recruitment, HR advisory, engineering staffing solutions",
+    "business_size_evidence": "Boutique technical staffing firm based in Bengaluru targeting engineering and IT sectors with an independent management team",
+    "website_platform": "HTML / WordPress",
+    "contact_workflow": "Un-segmented web form submission routing general feedback and employer hiring requests to a single inbox",
+    "observed_problem": "Technical placement agency lacks an automated candidate intake or client intake workflow, forcing manual review of unstructured candidate resumes and client job orders.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://taurushardtek.com/"
+    ],
+    "potential_solution": "Deploy a lightweight Python/Streamlit resume parser and automated client briefing form to streamline incoming talent submittals directly into an organized Google Sheet / Airtable CRM.",
+    "contact_method": "Contact page email & phone inquiry lines",
+    "source": "Publicly accessible web pages and domain records",
+    "risk_flags": [
+      "Low web traffic on primary domain; client acquisition may occur offline"
+    ],
+    "confidence": "medium",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L013",
+    "business_name": "BrandSaga",
+    "website": "https://brandsaga.in/",
+    "customer_type": "consultant_or_agency",
+    "location": "Delhi NCR, India",
+    "services": "Branding, digital marketing strategy, social media management, creative design",
+    "business_size_evidence": "Small independent branding studio serving local businesses and startups in North India",
+    "website_platform": "WordPress",
+    "contact_workflow": "Basic HTML contact form without real-time schedule integration or service package filters",
+    "observed_problem": "Creative branding offerings require extensive manual qualification, but site uses an open text contact form without instant discovery call scheduling or pre-call questionnaire.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://brandsaga.in/"
+    ],
+    "potential_solution": "Embed a multi-step interactive brand assessment quiz (e.g., 'What Branding Package Fits Your Growth Stage?') linked to an automated Calendly booking widget.",
+    "contact_method": "Website form and footer contact details",
+    "source": "Publicly accessible official business website",
+    "risk_flags": [
+      "Agency may already utilize off-site CRM links in email footers"
+    ],
+    "confidence": "medium",
+    "status": "needs_review"
+  },
+  {
+    "lead_id": "L014",
+    "business_name": "Inovision Consulting",
+    "website": "https://inovision.in/",
+    "customer_type": "consultant_or_agency",
+    "location": "Pune, Maharashtra, India",
+    "services": "Business management consulting, operational efficiency advisory, process optimization",
+    "business_size_evidence": "Small independent consulting firm operating with a core team of management advisors",
+    "website_platform": "WordPress",
+    "contact_workflow": "Standard static contact page requiring manual email follow-up without automated lead qualification",
+    "observed_problem": "Consulting services focus on process optimization, yet the inbound lead workflow relies on a static text form that does not pre-qualify client size, industry sector, or project timeline.",
+    "problem_classification": "IMPROVEMENT_OPPORTUNITY",
+    "evidence_url": [
+      "https://inovision.in/"
+    ],
+    "potential_solution": "Implement a Python-backed automated lead routing script connected to a custom web form that pre-scores incoming consulting leads and alerts the owner via WhatsApp/Telegram.",
+    "contact_method": "Contact page email & phone inquiry lines",
+    "source": "Publicly accessible website catalog and agency listings",
+    "risk_flags": [
+      "Long B2B sales cycles may make automated lead pre-scoring secondary to direct relationships"
+    ],
+    "confidence": "medium",
+    "status": "needs_review"
+  }
+]

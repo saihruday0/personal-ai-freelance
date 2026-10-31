@@ -1,0 +1,15 @@
+lead_id,business_name,website,classification,audit_verdict,business_verified,website_verified,evidence_count,review_notes
+L001,Web Designer Pro (Josh Hall),https://joshhall.co/,NOT_CLASSIFIED,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,1,No automatic validation issues found
+L002,Synchro Shakti Academy (Kartika Nair),https://synchroshakti.com/,NOT_CLASSIFIED,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,1,No automatic validation issues found
+L003,Thomas Frank (ThomasJFrank.com / Flywheel Publishing LLC),https://thomasjfrank.com/,NOT_CLASSIFIED,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,1,No automatic validation issues found
+L004,Matt D'Avella (Slow Growth Pty Ltd),https://www.mattdavella.com/,NOT_CLASSIFIED,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,1,No automatic validation issues found
+L005,Studio Ayra,https://studioayra.com/,IMPROVEMENT_OPPORTUNITY,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,2,No automatic validation issues found
+L006,Evolve Snacks,https://evolvesnacks.com/,IMPROVEMENT_OPPORTUNITY,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,1,No automatic validation issues found
+L007,Tea Better,https://teabetter.in/,VERIFIED_PROBLEM,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,2,No automatic validation issues found
+L008,Label DC,https://labeldc.com/,IMPROVEMENT_OPPORTUNITY,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,2,No automatic validation issues found
+L009,Fresh n Flavour (Aarvee Multibiz Co.),https://freshnflavour.com/,IMPROVEMENT_OPPORTUNITY,NOT_AUDITED,NOT_CHECKED,NOT_CHECKED,1,No automatic validation issues found
+L010,MindSift Consulting,https://mindsift.in/,IMPROVEMENT_OPPORTUNITY,REJECT,NOT_VERIFIED,NOT_VERIFIED,2,No automatic validation issues found
+L011,Third Eye Blind Productions,https://thirdeyeblindproductions.com/,IMPROVEMENT_OPPORTUNITY,INVESTIGATE FURTHER,VERIFIED,VERIFIED,2,No automatic validation issues found
+L012,Taurus Hardtek Consultancy,https://taurushardtek.com/,IMPROVEMENT_OPPORTUNITY,REJECT,NOT_VERIFIED,NOT_VERIFIED,1,No automatic validation issues found
+L013,BrandSaga,https://brandsaga.in/,IMPROVEMENT_OPPORTUNITY,REJECT,PARTIAL,PARTIAL,1,No automatic validation issues found
+L014,Inovision Consulting,https://inovision.in/,IMPROVEMENT_OPPORTUNITY,REJECT,NOT_VERIFIED,NOT_VERIFIED,1,No automatic validation issues found

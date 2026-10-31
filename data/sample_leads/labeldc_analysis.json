@@ -1,0 +1,66 @@
+{
+  "source_data": {
+    "website": "https://labeldc.com/",
+    "final_url": "https://labeldc.com/",
+    "http_status": 200,
+    "response_time": 0.62,
+    "page_title": "Label DC | Indo Western Dresses, Coord Sets & Ethnic Wear",
+    "meta_description": "Shop indo-western dresses, coord sets, jumpsuits, shararas and ethnic wear at Label DC.",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Indo Western Dresses"
+      },
+      {
+        "tag": "h2",
+        "text": "Coord Sets"
+      },
+      {
+        "tag": "h2",
+        "text": "Shop Our Collection"
+      }
+    ],
+    "page_text": "Label DC offers Indo-Western dresses, coord sets, jumpsuits, shararas, ethnic wear, dhoti sets, tops and jewellery. Shop online with worldwide delivery and cash on delivery options.",
+    "emails": [],
+    "phone_candidates": [
+      {
+        "normalized": "+919137123542",
+        "original_values": [
+          "+91 9137123542"
+        ]
+      }
+    ],
+    "internal_links": [],
+    "external_links": []
+  },
+  "ai_analysis": "{\n  \"business_summary\": \"Label DC is an online retailer specializing in Indo-Western attire, offering dresses, coord sets, jumpsuits, shararas, ethnic wear, dhoti sets, tops, and jewellery with worldwide delivery and cash on delivery options.\",\n  \"products_or_services\": [\n    \"Indo-Western dresses\",\n    \"Coord sets\",\n    \"Jumpsuits\",\n    \"Shararas\",\n    \"Ethnic wear\",\n    \"Dhoti sets\",\n    \"Tops\",\n    \"Jewellery\",\n    \"Online shopping with worldwide delivery\",\n    \"Cash on delivery\"\n  ],\n  \"target_audience\": \"\",\n  \"business_type\": \"E-commerce clothing and accessory retailer\",\n  \"limitations\": [\n    \"No pricing information provided\",\n    \"No contact details specified\",\n    \"Target audience not explicitly stated\"\n  ]\n}",
+  "validated_analysis": {
+    "valid": true,
+    "business_summary": "Label DC is an online retailer specializing in Indo-Western attire, offering dresses, coord sets, jumpsuits, shararas, ethnic wear, dhoti sets, tops, and jewellery with worldwide delivery and cash on delivery options.",
+    "business_type": "E-commerce clothing and accessory retailer",
+    "target_audience": "",
+    "accepted_products_or_services": [
+      "Indo-Western dresses",
+      "Coord sets",
+      "Jumpsuits",
+      "Shararas",
+      "Ethnic wear",
+      "Dhoti sets",
+      "Tops",
+      "Jewellery",
+      "Cash on delivery"
+    ],
+    "rejected_products_or_services": [
+      {
+        "item": "Online shopping with worldwide delivery",
+        "reason": "No exact supporting text found."
+      }
+    ],
+    "limitations": [
+      "No pricing information provided",
+      "No contact details specified",
+      "Target audience not explicitly stated"
+    ],
+    "validation_note": "Structure passed. Exact text matching is not proof of factual accuracy."
+  }
+}

@@ -1,0 +1,135 @@
+PERSONAL AI FREELANCING SYSTEM
+LEAD VALIDATION REPORT
+=============================================
+Research records: 14
+Audit records: 5
+
+L001 - Web Designer Pro (Josh Hall)
+  Classification: NOT_CLASSIFIED
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L002 - Synchro Shakti Academy (Kartika Nair)
+  Classification: NOT_CLASSIFIED
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L003 - Thomas Frank (ThomasJFrank.com / Flywheel Publishing LLC)
+  Classification: NOT_CLASSIFIED
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L004 - Matt D'Avella (Slow Growth Pty Ltd)
+  Classification: NOT_CLASSIFIED
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L005 - Studio Ayra
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 2
+  Checks: No automatic validation issues found
+
+L006 - Evolve Snacks
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L007 - Tea Better
+  Classification: VERIFIED_PROBLEM
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 2
+  Checks: No automatic validation issues found
+
+L008 - Label DC
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 2
+  Checks: No automatic validation issues found
+
+L009 - Fresh n Flavour (Aarvee Multibiz Co.)
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: NOT_AUDITED
+  Business: NOT_CHECKED
+  Website: NOT_CHECKED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L010 - MindSift Consulting
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: REJECT
+  Business: NOT_VERIFIED
+  Website: NOT_VERIFIED
+  Evidence URLs: 2
+  Checks: No automatic validation issues found
+
+L011 - Third Eye Blind Productions
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: INVESTIGATE FURTHER
+  Business: VERIFIED
+  Website: VERIFIED
+  Evidence URLs: 2
+  Checks: No automatic validation issues found
+
+L012 - Taurus Hardtek Consultancy
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: REJECT
+  Business: NOT_VERIFIED
+  Website: NOT_VERIFIED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L013 - BrandSaga
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: REJECT
+  Business: PARTIAL
+  Website: PARTIAL
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+L014 - Inovision Consulting
+  Classification: IMPROVEMENT_OPPORTUNITY
+  Audit verdict: REJECT
+  Business: NOT_VERIFIED
+  Website: NOT_VERIFIED
+  Evidence URLs: 1
+  Checks: No automatic validation issues found
+
+=============================================
+SUMMARY
+=============================================
+Research records: 14
+Audited records: 5
+Not audited: 9
+Duplicate research IDs: []
+Duplicate audit IDs: []
+
+Audit verdicts:
+  REJECT: 4
+  INVESTIGATE FURTHER: 1
+
+Research classifications:
+  NOT_CLASSIFIED: 4
+  IMPROVEMENT_OPPORTUNITY: 9
+  VERIFIED_PROBLEM: 1

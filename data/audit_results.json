@@ -1,0 +1,242 @@
+[
+  {
+    "audit_id": "A010",
+    "lead_id": "L010",
+    "audit_date": "2026-10-30",
+    "auditor": "Claude",
+    "business_name": "MindSift Consulting",
+    "official_website": "Not verified (mindsift.in could not be retrieved or found in search)",
+    "business_verified": "NOT_VERIFIED",
+    "website_verified": "NOT_VERIFIED",
+    "verification_findings": "No source found for an HR/recruitment firm called MindSift Consulting in Mumbai. Searches for the name/domain return only MindSift, a US (Boston) AI ad-tech company at mindsift.com that is the subject of an FTC proposed consent order (May 2026). Unrelated to the lead as described. Absence of results is not proof the Indian firm does not exist.",
+    "gemini_claims": {
+      "confirmed": [],
+      "incorrect": [],
+      "unsupported": [
+        "Mumbai HR/recruitment boutique",
+        "WordPress platform",
+        "Contact form fields (Name, Email, Phone, Message) and unsegmented inbox",
+        "Small core team of HR advisors",
+        "'confidence: high' rating"
+      ]
+    },
+    "problems_gemini_missed": [],
+    "classification_audit": "IMPROVEMENT_OPPORTUNITY is unsupported; no page content was verifiable. Should be HYPOTHESIS at most.",
+    "solution_assessment": "Dual-path triage form + booking is technically realistic for a beginner, but irrelevant until the business and site are confirmed.",
+    "beginner_suitability": "Unknown",
+    "public_contact_methods": "Not verified",
+    "evidence_urls": [
+      "https://www.federalregister.gov/documents/2026/05/28/2026-10546/mindsift-llc-analysis-of-proposed-consent-order-to-aid-public-comment",
+      "https://www.linkedin.com/company/mindsift"
+    ],
+    "risk_flags": [
+      "Name collision with an unrelated US ad-tech firm under FTC order - do not contact the wrong entity",
+      "Business existence at stated domain unverified",
+      "Gemini rated confidence high without retrievable evidence"
+    ],
+    "verdict": "REJECT",
+    "verdict_reason": "Existence and domain unverified; only matching name is an unrelated firm. Re-open only if a manual check of mindsift.in confirms an Indian HR consultancy."
+  },
+  {
+    "audit_id": "A011",
+    "lead_id": "L011",
+    "audit_date": "2026-10-30",
+    "auditor": "Claude",
+    "business_name": "Third Eye Blind Productions",
+    "official_website": "https://thirdeyeblindproductions.com/",
+    "business_verified": "VERIFIED",
+    "website_verified": "VERIFIED",
+    "verification_findings": "Active Mumbai production/influencer-marketing agency. Independent listings (Crunchbase, Internshala, Facebook, TechBehemoths) match the domain. Site is live and recently updated (blog posts dated Oct 2026). Founder/director named on site: Manpreet Singh Chadha. Sources disagree on founding year (2015/2016/2017/2018).",
+    "gemini_claims": {
+      "confirmed": [
+        "Mumbai, Andheri West head office",
+        "WordPress/Elementor (Elementor 4.3.5 in page metadata)",
+        "Video production, branded content, corporate shoots offered",
+        "Contact form has free-text Message field with no project-scoping fields (budget/timeline/deliverables)",
+        "Phone and email contact exist"
+      ],
+      "incorrect": [
+        "'Small production crew serving mid-tier brands' - third-party listings give 10-49 / 11-50 staff, site lists offices in Mumbai, Delhi, Goa, USA, Dubai, Canada (self-reported) and large-brand logos (logos alone do not prove engagements)",
+        "'Static embed form and mailto links' - site has a native-looking 'get a quote' form (Full Name, Phone, Email, Message) plus WhatsApp CTAs ('Book a free strategy call'); WhatsApp-first intake was not mentioned"
+      ],
+      "unsupported": [
+        "JustDial evidence URL - contains 'XX' placeholder segments, looks malformed, could not be found",
+        "Whether the form is an embed vs plugin",
+        "Services summary omits that influencer marketing is the headline offer"
+      ]
+    },
+    "problems_gemini_missed": [
+      {
+        "finding": "USA office address differs: footer says 4297 Santa Ana Ave, Clovis CA 93619; Contact page says 19800 Vallco Pkwy, Cupertino CA 95014",
+        "classification": "VERIFIED PROBLEM",
+        "severity": "minor",
+        "evidence_url": "https://thirdeyeblindproductions.com/contact-us/"
+      },
+      {
+        "finding": "Footer country codes appear swapped: Dubai office shows a +1 647 (Canada) number, Canada office shows a 00971 (UAE) number",
+        "classification": "VERIFIED PROBLEM",
+        "severity": "minor",
+        "evidence_url": "https://thirdeyeblindproductions.com/"
+      },
+      {
+        "finding": "Homepage 'Our Production House Work' section rendered no content in text fetch (may be JS-loaded)",
+        "classification": "HYPOTHESIS",
+        "evidence_url": "https://thirdeyeblindproductions.com/"
+      },
+      {
+        "finding": "Intake is WhatsApp-first; a form-based scoping tool may not match how they sell",
+        "classification": "HYPOTHESIS",
+        "evidence_url": "https://thirdeyeblindproductions.com/"
+      }
+    ],
+    "classification_audit": "IMPROVEMENT_OPPORTUNITY is fair for a structured brief form, but 'confidence: high' is overstated. Real defects are contact-data inconsistencies, not the missing scoping tool.",
+    "solution_assessment": "Multi-step project brief form that writes to Google Sheet/email and pings WhatsApp/Telegram is realistic. A price-estimating calculator is not advisable: bespoke high-ticket work, and the site already publishes rough price ranges in FAQ. Contact-data cleanup is trivial but too small to sell alone.",
+    "beginner_suitability": "Low-Medium. Real, active, named decision-maker, but a multi-office agency with an external web vendor and an in-house content cadence; likely to have existing tools.",
+    "public_contact_methods": [
+      "Form on homepage and /contact-us/",
+      "inquiry@thirdeyeblindproductions.com (shown on site, obfuscated in HTML)",
+      "+91 91366 55666 (head office)",
+      "WhatsApp link on site"
+    ],
+    "evidence_urls": [
+      "https://thirdeyeblindproductions.com/",
+      "https://thirdeyeblindproductions.com/contact-us/",
+      "https://www.crunchbase.com/organization/third-eye-blind-productions",
+      "https://internshala.com/company/third-eye-blind-productions-1698251932",
+      "https://www.facebook.com/3rdeyeblindprod/"
+    ],
+    "risk_flags": [
+      "Footer credits 'Designed By ANA Digital Media' - existing web vendor",
+      "Logo strip includes 1xBet, an offshore betting brand; betting promotion is legally sensitive in India - avoid association, check current rules",
+      "Logo strip is not proof of client relationships",
+      "Inconsistent founding year and addresses across pages",
+      "WhatsApp-first sales process",
+      "Likely larger budget expectations and professional vendor comparison"
+    ],
+    "verdict": "INVESTIGATE FURTHER",
+    "verdict_reason": "Only record in this batch with a verified business, live site, named decision-maker and public contact. No verified problem that matches our services beyond minor data errors, so not ACCEPT."
+  },
+  {
+    "audit_id": "A012",
+    "lead_id": "L012",
+    "audit_date": "2026-10-30",
+    "auditor": "Claude",
+    "business_name": "Taurus Hardtek Consultancy",
+    "official_website": "Not verified (taurushardtek.com not found in any search)",
+    "business_verified": "NOT_VERIFIED",
+    "website_verified": "NOT_VERIFIED",
+    "verification_findings": "No source found for a technical-recruitment firm named Taurus Hardtek Consultancy. Closest matches are different entities: Taurus Hard Soft Solutions Pvt Ltd (Bengaluru, taurusonline.net; hardware/software/IT services, founded 1987, 11-50 staff, hires developers) and Taurus Contractors (tauruscontractors.com; engineering staffing, location not confirmed as Bengaluru). Gemini likely conflated names.",
+    "gemini_claims": {
+      "confirmed": [],
+      "incorrect": [
+        "Describes an engineering/IT staffing boutique - the Bengaluru 'Taurus' that exists is an IT/hardware-software company, not a recruiter"
+      ],
+      "unsupported": [
+        "Business existence and domain",
+        "Single-inbox form routing",
+        "HTML/WordPress platform",
+        "Low web traffic",
+        "Independent management team"
+      ]
+    },
+    "problems_gemini_missed": [],
+    "classification_audit": "IMPROVEMENT_OPPORTUNITY unsupported; downgrade to HYPOTHESIS. Single evidence URL, medium confidence not justified.",
+    "solution_assessment": "Streamlit resume parser is NOT beginner-appropriate: it means handling candidates' personal data (privacy duties under India's DPDP Act), hosting, parsing accuracy and support. A simple intake form + Google Sheet would be realistic, but only if the business is real.",
+    "beginner_suitability": "Low (and unverified)",
+    "public_contact_methods": "Not verified. Do not use contact details of the similarly named companies.",
+    "evidence_urls": [
+      "https://in.linkedin.com/company/thsspl",
+      "https://www.crunchbase.com/organization/taurus-hard-soft-solutions-pvt-ltd",
+      "https://tauruscontractors.com/"
+    ],
+    "risk_flags": [
+      "Likely name conflation by Gemini",
+      "Domain unverified",
+      "Proposed solution involves bulk personal data (resumes)",
+      "Gemini's own 'low traffic' flag is itself unsupported"
+    ],
+    "verdict": "REJECT",
+    "verdict_reason": "Business and domain not verifiable; nearest real entities do not match the description."
+  },
+  {
+    "audit_id": "A013",
+    "lead_id": "L013",
+    "audit_date": "2026-10-30",
+    "auditor": "Claude",
+    "business_name": "BrandSaga",
+    "official_website": "https://brandsaga.in/ (exists as a domain per a Facebook page snippet; site itself could not be loaded)",
+    "business_verified": "PARTIAL",
+    "website_verified": "PARTIAL",
+    "verification_findings": "Only evidence found: a Facebook page 'Brand Saga' listing brandsaga.in and describing itself as a place to read stories of brands, business and startups, with a link to an article on brandsaga.in (Agarwal Packers & Movers story). That is a content publisher, not a branding studio. Facebook blocks automated access and the domain did not appear as a fetchable search result, so the site was not inspected directly.",
+    "gemini_claims": {
+      "confirmed": [
+        "The domain brandsaga.in exists and is associated with the name BrandSaga"
+      ],
+      "incorrect": [
+        "'Small independent branding studio serving local businesses and startups in North India' - only evidence indicates a brand-stories publication"
+      ],
+      "unsupported": [
+        "Delhi NCR location",
+        "Branding/digital marketing/social media service list",
+        "Basic HTML contact form without scheduling",
+        "'Creative branding offerings require extensive manual qualification' - no evidence of any qualification process"
+      ]
+    },
+    "problems_gemini_missed": [],
+    "classification_audit": "IMPROVEMENT_OPPORTUNITY unsupported. The quiz+Calendly pitch assumes a service business that the evidence does not show.",
+    "solution_assessment": "Branding-package quiz + booking is realistic technically, but solves a problem for a business model that is probably not theirs. If it is a media publication, a different hypothesis (site performance, newsletter capture) would be needed, with no evidence for either.",
+    "beginner_suitability": "Unknown / low",
+    "public_contact_methods": "Not verified",
+    "evidence_urls": [
+      "https://www.facebook.com/brandsagain/"
+    ],
+    "risk_flags": [
+      "Likely misclassified business model",
+      "Name collisions with other 'Brand Saga' media series (e.g. Social Samosa) - do not confuse",
+      "Site not directly inspected",
+      "Content publishers often have unclear budgets"
+    ],
+    "verdict": "REJECT",
+    "verdict_reason": "Core description contradicted by the only evidence; no verified problem or contact channel. Re-open only if a manual visit shows an agency with services pages."
+  },
+  {
+    "audit_id": "A014",
+    "lead_id": "L014",
+    "audit_date": "2026-10-30",
+    "auditor": "Claude",
+    "business_name": "Inovision Consulting",
+    "official_website": "Not verified (inovision.in not found in search or retrievable)",
+    "business_verified": "NOT_VERIFIED",
+    "website_verified": "NOT_VERIFIED",
+    "verification_findings": "No source for a Pune management consultancy named Inovision Consulting. Search surfaces namesakes: Innovision Consulting Pvt Ltd (Bangladesh; innovision-bd.com; offices in Bangladesh/UK/Nigeria; development consulting), Innovision Infrasol Pvt Ltd (infrastructure PMC; innovisions.in), and Innovovision Technology Consulting Pvt Ltd (Pune, incorporated 2018; innovovision.com). None matches the domain or description given.",
+    "gemini_claims": {
+      "confirmed": [],
+      "incorrect": [],
+      "unsupported": [
+        "Business and inovision.in domain",
+        "Pune location and operations/process-optimisation focus",
+        "WordPress platform",
+        "Static form without pre-qualification",
+        "Small team of advisors"
+      ]
+    },
+    "problems_gemini_missed": [],
+    "classification_audit": "IMPROVEMENT_OPPORTUNITY unsupported; HYPOTHESIS at most. Pitch relies on irony ('process consultants lack process') rather than observation.",
+    "solution_assessment": "Python lead-scoring plus WhatsApp alerts is over-engineered. WhatsApp Business API is not free and scoring adds little for a handful of enquiries. A form + email/Telegram notification would suffice, if the business were verified.",
+    "beginner_suitability": "Unknown / low",
+    "public_contact_methods": "Not verified. Do not use contacts from the namesake firms.",
+    "evidence_urls": [
+      "https://innovision-bd.com/",
+      "https://www.zaubacorp.com/INNOVOVISION-TECHNOLOGY-CONSULTING-PRIVATE-LIMITED-U93090PN2018PTC179700",
+      "https://innovisions.in/consultancy/"
+    ],
+    "risk_flags": [
+      "Likely conflation with similarly named firms",
+      "Domain unverified",
+      "Long B2B sales cycles (Gemini flag, plausible but unevidenced)",
+      "Proposed solution over-complex"
+    ],
+    "verdict": "REJECT",
+    "verdict_reason": "Cannot verify the business or domain; only namesakes found."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "website": "https://labeldc.com/",
+  "final_url": "https://labeldc.com/",
+  "success": true,
+  "http_status": 200,
+  "response_time": 0.62,
+  "page_title": "Label DC | Indo Western Dresses, Coord Sets & Ethnic Wear",
+  "meta_description": "Shop indo-western dresses, coord sets, jumpsuits, shararas and ethnic wear at Label DC.",
+  "headings": [
+    {"tag": "h1", "text": "Indo Western Dresses"},
+    {"tag": "h2", "text": "Coord Sets"},
+    {"tag": "h2", "text": "Shop Our Collection"}
+  ],
+  "page_text": "Label DC offers Indo-Western dresses, coord sets, jumpsuits, shararas, ethnic wear, dhoti sets, tops and jewellery. Shop online with worldwide delivery and cash on delivery options.",
+  "internal_links": [],
+  "external_links": [],
+  "emails": [],
+  "phone_candidates": [
+    {
+      "normalized": "+919137123542",
+      "original_values": ["+91 9137123542"]
+    }
+  ]
+}
