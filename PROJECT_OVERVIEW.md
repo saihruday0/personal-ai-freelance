@@ -44,13 +44,53 @@ Initial audience hypothesis: online businesses and creators. This niche and offe
 - Other installed models previously reported: `gemma4:12b`, `mytutor:latest`
 - Python packages: requests, beautifulsoup4, pandas, pytest
 
-## 30-Day Roadmap
-- Days 1–7: foundation, prospect research, lead qualification, website inspection, and report generation.
-- Days 8–14: outreach preparation and supervised sending, reply tracking, requirements gathering, proposal/demo, and offer refinement.
-- Days 15–21: client folders, project specification, implementation workflow, automation workflow, testing, backups, and delivery rehearsal.
-- Days 22–30: prospect follow-up, discovery, proposals, scope/pricing/payment terms, implementation if a project is secured, delivery, feedback, and final review.
 
-The roadmap is a working plan, not a guarantee of obtaining a client or income.
+## 30-Day Roadmap — Revised Execution Strategy
+
+### Phase 1 — Foundation (Days 1–7)
+- Project setup and lead qualification.
+- Prospect research and verification.
+- Website inspection and analysis.
+- Automated quality checks and reporting.
+- Demonstration projects.
+
+### Phase 3 — AI-Assisted Project Delivery System (Days 8–21)
+Bring forward the development infrastructure.
+
+- Days 8–10: Project orchestration and requirements analysis.
+- Days 11–14: AI-assisted website development workflow.
+- Days 15–17: AI-assisted automation development workflow.
+- Days 18–19: Automated testing and quality assurance.
+- Days 20–21: Project documentation, backups and delivery workflow.
+
+Build a minimum working system first. Improve it through practical projects.
+
+### Phase 2 — Outreach and Client Discovery (Days 11–21)
+Run alongside Phase 3 once a credible demonstration is available.
+
+- Prepare personalized outreach.
+- Contact qualified prospects with user approval.
+- Track replies and follow-ups.
+- Gather client requirements.
+- Refine service offerings using actual feedback.
+
+### Final Phase — Client Acquisition and Delivery (Days 22–30)
+- Continue prospect follow-ups.
+- Conduct client discovery.
+- Prepare proposals and project specifications.
+- Agree on scope, pricing and deadlines only with approval.
+- Implement and test secured projects.
+- Review progress and identify improvements.
+
+### Execution Principles
+- Getting the first paying client remains the primary objective.
+- Build reusable workflows instead of repeatedly building from scratch.
+- Prioritize working software over complex agent architectures.
+- Use free tools and existing AI accounts wherever possible.
+- Maintain human approval checkpoints.
+- Never send outreach, spend money or deploy without approval.
+- The revised sequence does not guarantee client acquisition or income.
+
 
 ## Current Technical Capabilities
 - CSV-based lead tracking and validation.

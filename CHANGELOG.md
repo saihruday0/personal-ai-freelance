@@ -69,6 +69,36 @@ This log records completed work based on user-confirmed progress. Dates are incl
 - Not deployed or connected to Taps On Plumbing.
 - No real customer data used.
 
+
+## Day 6 — Bestgrade Tuition Website Improvement Demo
+
+### Added
+- Created `projects/bestgrade_tuition_demo/`.
+- Built a responsive homepage.
+- Redesigned the FAQ page with interactive accordion functionality.
+- Reorganized tuition programme and fee information.
+- Replaced placeholder FAQ content with evidence-based answers.
+- Applied consistent navy-blue and orange branding.
+- Added project README documentation.
+
+### Validation
+- Desktop layout manually checked.
+- Tablet layout manually checked.
+- Mobile layout manually checked.
+- Navigation and links checked.
+- FAQ accordion checked.
+- Pricing layout checked.
+
+### Limitations
+- Independent demonstration only.
+- Not deployed or connected to the actual business website.
+- Current pricing has not been independently verified.
+- No outreach sent.
+
+### Status
+- Day 6 demonstration completed.
+
+
 ## Notes
 - Do not treat AI-generated descriptions as verified facts without human review.
 - Do not bypass site rate limits or crawling restrictions.
